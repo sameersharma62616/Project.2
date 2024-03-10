@@ -1,0 +1,641 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+#nevbar
+{
+	height: 60px;
+	background-color: black;
+	display: flex;       /*aisa karne se sare cheeje line me likh jainge*/
+    align-items: center;  /*aisa karne se humare item top or bottom me center me aa jainge*/
+    justify-content: space-evenly;  
+}
+#amazon_logo
+{
+	height: 56px;
+	width: 130px;
+	background-image: url("amazon18.png");
+	background-size: cover;
+	display: inline-block;
+	padding-bottom: 3px;
+	padding-left: 17px;
+}
+#amazon_logo:hover          /*keise bhe cheej ke aage hover lagene ka mtlb ye ki hum ush me kise type ka effect dall rahe he..........jis me mouse curser jaiga us pe effect lagega*/
+{
+	border-width: 1.6px;
+	border-style: solid;
+	border-color: white;
+	padding-bottom: 1px;
+}
+#icon_india
+{
+	color: white;
+	font-size: 18px;
+}
+#address1
+{
+    color: #cccccc;
+    font-size: 11px;
+    margin-left: 25px;
+}
+#address2
+{
+    color: white;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-left: 2px;
+    font-weight: 700;
+}
+#icon_india
+{
+	display: flex;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+#address:hover          /*keise bhe cheej ke aage hover lagene ka mtlb je ki hum ush me kise type ka effecr dall rahe he*/
+{
+	border-width: 1.7px;
+	border-style: solid;
+	border-color: white;
+	padding-top: 16px;
+	padding-bottom: 3px;
+	padding-right: 9px;
+}
+/*..........................................................................................................................*/
+
+#search
+{
+	height: 40px;
+	width: 620px;
+    display: flex;
+    background-color: orange;
+    border-radius: 4px;
+    border: none;
+    display: flex;
+}
+#all
+{
+	border-top-left-radius: 4px;       /*is se hum apni man eacha side ko curved kar sakte he*/
+	border-bottom-left-radius: 4px;
+	background-color: #f3f3f3;
+	width: 50px;
+	text-align: center;
+	font-size: 1rem;
+	border: none;
+}
+input
+{
+	width: 530px;
+	font-size: 1rem;
+	border: none;
+	border-style: none;
+}
+#search_icon
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 1.3rem;
+	color: black;
+}
+#search:hover
+{
+	border-width: 1.7px;
+	border-style: solid;
+	border-color: white;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+/*..........................................................................................................................*/
+
+#hello
+{
+   color: white;
+   font-size: 11px;
+}
+#account
+{
+   color: white;
+   font-size: 16;
+   font-weight: 700;
+}
+#hello-account-border:hover
+{
+	border-width: 1.7px;
+	border-style: solid;
+	border-color: white;
+	padding-top: 24px;
+	padding-bottom: 3px;
+	padding-right: 9px;
+}
+/*..........................................................................................................................*/
+
+#return
+{
+   color: white;
+   font-size: 11px;
+}
+#order
+{
+   color: white;
+   font-size: 16;
+   font-weight: 700;
+}
+#return_order:hover
+{
+	border-width: 1.7px;
+	border-style: solid;
+	border-color: white;
+	padding-top: 24px;
+	padding-bottom: 3px;
+	padding-right: 9px;
+}
+/*..........................................................................................................................*/
+
+#cart_icon
+{
+   color: white;
+   font-size: 20px;
+   font-weight: 700;
+
+}
+#cart_icon i          /*aisa karne se hum 1 hi ke andar kise specific element ko bada chota kar sakte he*/ 
+{
+   font-size: 30px;
+}
+#cart_icon:hover
+{
+	border-width: 1.7px;
+	border-style: solid;
+	border-color: white;
+	padding-top: 25px;
+	padding-bottom: 3px;
+	padding-right: 9px;
+}
+/*..................................................second part start..........................................................*/
+
+#second_nevbar
+{
+   display: inline-block;
+   display: flex;
+   height: 40px;
+   background-color: #222f3d;
+   color: white;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+#second_nevbar_options
+{
+	display: flex;
+	width: 1050px;
+}
+
+#p1
+{
+    margin-left: 19px;
+}
+#p2
+{
+	margin-left: 19px;
+}
+#p3
+{
+	margin-left: 19px;
+}
+#p4
+{
+	margin-left: 19px;
+}
+#p5
+{
+	margin-left: 19px;
+}
+
+#second_nevbar_last
+{
+	font-size: 18px;
+	font-weight: 700;
+}
+/*..................................................third part start..............................................................*/
+
+#main_screen
+{
+	height: 350px;
+	background-image: url("amazon7.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+#upper_search
+{
+	background-color: white;
+	height: 40px;
+	width: 1445px;
+	display: flex;                     /*.....*/
+	align-items: center;               /*..... inhe ek sath use kar ke center me laya ja sakte he word ko*/
+	justify-content: center;           /*.....*/
+    margin-bottom: 25px;
+}
+a
+{
+	color: skyblue;
+	text-decoration: none;
+}
+/*........................................fourt part(search bar ke neche 4 horizontal iamge ke liye......................................*/
+#shop_section_A
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: gray;
+}
+#box-first_A
+{
+    height: 400px;
+    width: 340px;
+    background-color: white;
+}
+#box-second_A
+{
+    height: 400px;
+    width: 340px;
+    background-color: white;
+}
+#box-third_A
+{
+    height: 400px;
+    width: 340px;
+    background-color: white;
+}
+#box-fourth_A
+{
+    height: 400px;
+    width: 340px;
+    background-color: white;
+}
+
+
+/*.............................................box 1..............................................*/
+
+
+#gaming_A
+{
+	margin-left: 25px;
+	margin-top: 26px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#pic1_A
+{
+	height: 295px;
+	width: 290px;
+	background-image: url("amazon3.jpg");
+	background-size: cover;
+	margin-left: 25px;
+}
+#pera_A
+{
+	color: skyblue;
+	margin-left: 23px;
+	margin-top: 12px;
+}
+
+/*.............................................box 2..............................................*/
+
+
+
+#deals_A
+{
+	margin-left: 25px;
+	margin-top: 26px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#pic2_A
+{
+	height: 295px;
+	width: 290px;
+	background-image: url("amazon9.jpg");
+	background-size: cover;
+	margin-left: 25px;
+}
+#pera2_A
+{
+	color: skyblue;
+	margin-left: 23px;
+	margin-top: 12px;
+}
+
+
+/*.............................................box 3..............................................*/
+
+
+
+#small_A
+{
+	margin-left: 25px;
+	margin-top: 26px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#pic3_A
+{
+	height: 295px;
+	width: 290px;
+	background-image: url("amazon10.jpg");
+	background-size: cover;
+	margin-left: 25px;
+}
+#pera3_A
+{
+	color: skyblue;
+	margin-left: 23px;
+	margin-top: 12px;
+}
+
+
+/*.............................................box 4..............................................*/
+
+
+#toys_A
+{
+	margin-left: 25px;
+	margin-top: 26px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#pic4_A
+{
+	height: 295px;
+	width: 290px;
+	background-image: url("amazon11.jpg");
+	background-size: cover;
+	margin-left: 25px;
+}
+#pera4_A
+{
+	color: skyblue;
+	margin-left: 23px;
+	margin-top: 12px;
+}
+
+/*..........next raw for more 4 horizontal image.....................................*/
+
+#shop_section_B
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: gray;
+}
+#box-first_B
+{
+    height: 400px;
+    width: 340px;
+    background-color: white;
+}
+#box-second_B
+{
+    height: 400px;
+    width: 340px;
+    background-color: white;
+}
+#box-third_B
+{
+    height: 400px;
+    width: 340px;
+    background-color: white;
+}
+#box-fourth_B
+{
+    height: 400px;
+    width: 340px;
+    background-color: white;
+}
+
+
+/*.............................................box 1..............................................*/
+
+
+#small_B
+{
+	margin-left: 25px;
+	margin-top: 26px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#pic1_B
+{
+	height: 295px;
+	width: 290px;
+	background-image: url("amazon12.jpg");
+	background-size: cover;
+	margin-left: 25px;
+}
+#pera_B
+{
+	color: skyblue;
+	margin-left: 23px;
+	margin-top: 12px;
+}
+
+/*.............................................box 2..............................................*/
+
+
+
+#pre_B
+{
+	margin-left: 25px;
+	margin-top: 26px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#pic2_B
+{
+	height: 295px;
+	width: 290px;
+	background-image: url("amazon13.jpg");
+	background-size: cover;
+	margin-left: 25px;
+}
+#pera2_B
+{
+	color: skyblue;
+	margin-left: 23px;
+	margin-top: 12px;
+}
+
+
+/*.............................................box 3..............................................*/
+
+
+
+#live_B
+{
+	margin-left: 25px;
+	margin-top: 26px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#pic3_B
+{
+	height: 295px;
+	width: 290px;
+	background-image: url("amazon14.jpg");
+	background-size: cover;
+	margin-left: 25px;
+}
+#pera3_B
+{
+	color: skyblue;
+	margin-left: 23px;
+	margin-top: 12px;
+}
+
+
+/*.............................................box 4..............................................*/
+
+#elevateds_B
+{
+	margin-left: 25px;
+	margin-top: 26px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#pic4_B
+{
+	height: 295px;
+	width: 290px;
+	background-image: url("amazon15.jpg");
+	background-size: cover;
+	margin-left: 25px;
+}
+#pera4_B
+{
+	color: skyblue;
+	margin-left: 23px;
+	margin-top: 12px;
+}
+
+/*............................(end part of amazon side)..........................................*/
+
+#footer1
+{
+	margin-top: 15px;
+	background-color: #37475a;
+	color: white;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+}
+/*..................................footer2.............................................................*/
+
+#footer_for_four
+{
+	height: 300px;
+	background-color: #222f3d;
+	display: flex;
+	color: white;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+#get
+{
+    margin-left: 175px;
+    margin-top: 45px;
+}
+#make
+{
+    margin-left: 175px;
+    margin-top: 45px;
+}
+#amazon
+{
+    margin-left: 175px;
+    margin-top: 45px;
+}
+#let
+{
+    margin-left: 175px;
+    margin-top: 45px;
+}
+
+/*.................................next footer...............................*/
+#small_line
+{
+	height: 1px;
+	background-color: #37475a;
+}
+#footer_down
+{
+	height: 80px;
+	background-color: #222f3d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#amazon_logo2
+{
+	height: 20px;
+	width: 100px;
+	margin-right: 20px;
+	background-image: url("amazon18.png");
+	background-size: cover;
+	padding-bottom: 14px;
+}
+#english
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 110px;
+	color: white;
+	border-style: solid;
+	border-color: #37475a;
+	border-width: 1px;
+	margin-right: 20px;
+}
+#english2
+{
+    margin-right: 18px;
+    margin-left: 10px;
+}
+#usd
+{
+	height: 30px;
+	width: 140px;
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+    border-style: solid;
+	border-color: #37475a;
+	border-width: 1px;
+	margin-right: 20px;
+	font-size: 13px;
+}
+#usd i
+{
+	margin-right: 12px;
+}
+#united_state
+{
+	height: 30px;
+	width: 140px;
+	border-style: solid;
+	border-color: #37475a;
+	border-width: 1px;
+	margin-right: 20px;
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
